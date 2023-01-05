@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+header{
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    background-color:  #FFF8F3;
+}
+.header-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+.inner-letter{
+    color: #FD6E0A;
+}
+/* display flex করলে তার পেটের ভিতরে যা রয়েছে সব এক 
+line এ এনে দিবে */
+/* justify-content:space-between করলে এর ভিতরের element গুলো 
+দুই দিকে সরিয়ে দিবে */
+nav{
+display: flex;
+justify-content: space-between;
+margin: 51px 210px;
+}
+nav > ul{
+   display: flex;
+   align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li .hire-me-btn{
+    width: 150px;
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border: 0px solid #FD6E0A;
+    border-radius: 5px;
+}
+.banner{
+    margin: 0 210px;
+    display: flex;
+    align-items: center;
+}
+.banner-title-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+}
+.banner-title-2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+}
+.banner-content{    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+}
+.download{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+background: #FD6E0A;
+border-radius: 5px;
+border: 0px;
+padding: 10px 15px;
+margin-top: 10px;
+margin-right: 10px;
+}
+.contact{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FD6E0A;
+border: 1px solid #FD6E0A;
+border-radius: 5px;
+padding: 10px 15px;
+margin-top: 10px;
+margin-right: 10px;
+}
+.first-section{
+    max-width: 1140px;
+    height: 550px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 230px;
+    padding: 131px 156px;
+    text-align: center;
+}
+.about-me{   
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+color: #181818;
+margin-bottom:30px;
+}
+.first-section-description{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+}
+.first-section-address{
+    display: flex;
+    justify-content: space-around;
+}
+.first-section-address li{
+    list-style: none;
+}
+.first-section-address li span{   
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #757575;
+}
+.first-section-address li{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #474747;
+margin-top: 30px;
+}
